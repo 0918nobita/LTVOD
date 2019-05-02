@@ -10,6 +10,35 @@ export const router = Router();
 
 // endpoint prefix: /video
 
+router.get('/latest', async (req: Request, res: Response) => {
+  const records: string = req.query.records;
+
+  const connection = MySQL.createConnection(dbConfig);
+
+  try {
+    await connect(connection);
+    const videos = await query<VideosRecord>(
+      connection,
+      'SELECT * FROM videos ORDER BY modified DESC LIMIT ?',
+      [Number.parseInt(records)]
+    );
+    res.json(
+      videos.map(video =>
+        Object.assign(video, {
+          created: moment(video.created).format('YYYY年M月D日 H:m'),
+          modified: moment(video.modified).format('YYYY年M月D日 H:m'),
+        })
+      )
+    );
+  } catch (e) {
+    console.log(e);
+    res.writeHead(500);
+    res.end();
+  } finally {
+    connection.end();
+  }
+});
+
 router.get('/:videoId', async (req: Request, res: Response) => {
   const videoId: string = req.params.videoId;
 
