@@ -1,7 +1,7 @@
 version: "3"
 services:
   static:
-    image: nginx:1.14-alpine
+    image: nginx:1.16-alpine
     ports:
       - 1234:80
     volumes:
@@ -29,7 +29,7 @@ services:
     volumes:
       - "./workspaces/rds/init:/docker-entrypoint-initdb.d"
   storage:
-    image: nginx:1.14-alpine
+    image: nginx:1.16-alpine
     ports:
       - 3000:80
     volumes:
