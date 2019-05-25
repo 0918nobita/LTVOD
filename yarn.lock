@@ -11498,10 +11498,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeless@0.0.18:
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/typeless/-/typeless-0.0.18.tgz#e345aa9e406512c61790a91dc81135f174a8bf66"
-  integrity sha512-7VhpF5BOt+t5QSatYUr2B8QSBBvAPmRWC8cZ4M5iSk15X1D8ccb8N70BeX5g6aOP9E4ep66S13N2Y7Bq4TkUMw==
+typeless@0.0.20:
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/typeless/-/typeless-0.0.20.tgz#edf0888093dd4e7852ef9421d0a569bac6c2fbf6"
+  integrity sha512-Oc9QyOEVDNK6je8gBjn+c8iYItap17NYlR7YqgrFMVHlgMipBFVGC3ceK1x7oUAEk18pyjdCKU62rjaTyKiUuA==
   dependencies:
     immer "^1.8.0"
     redux-react-hook "^3.1.0"
