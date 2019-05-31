@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.19.0",
     "hls.js": "0.12.4",
     "option-t": "19.3.0",
     "react": "16.8.5",
