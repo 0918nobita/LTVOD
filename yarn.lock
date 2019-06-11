@@ -9156,11 +9156,6 @@ redux-mock-store@1.5.3:
   dependencies:
     lodash.isplainobject "^4.0.6"
 
-redux-react-hook@^3.1.0:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/redux-react-hook/-/redux-react-hook-3.3.2.tgz#1cdad45009dfa264f46c2a9959d86ce1401df725"
-  integrity sha512-WdKoDA8FF25c9Tzy5iflM0wEbhilNrcXlAMg6OMgoAaH/bF20+A1H8y4c3B7F7oQGRFpAcBmiBiU//ZHd0AfOw==
-
 redux-saga@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/redux-saga/-/redux-saga-1.0.3.tgz#23e1c71fca6752ce52db3aaba4ecca657d7a9a1f"
@@ -10657,13 +10652,12 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeless@0.0.18:
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/typeless/-/typeless-0.0.18.tgz#e345aa9e406512c61790a91dc81135f174a8bf66"
-  integrity sha512-7VhpF5BOt+t5QSatYUr2B8QSBBvAPmRWC8cZ4M5iSk15X1D8ccb8N70BeX5g6aOP9E4ep66S13N2Y7Bq4TkUMw==
+typeless@0.1.15:
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/typeless/-/typeless-0.1.15.tgz#c62253c6960c335f285dfc73d75ba7c1b74bf5e8"
+  integrity sha512-r8o+UnDo4yf31c81fH7ATddxfqdkRsVq2HoRhXKKheidC/IE03rxgTSBJLwXRcc6ALvdblXCz+tX7kOqIbzuZw==
   dependencies:
     immer "^1.8.0"
-    redux-react-hook "^3.1.0"
 
 typeorm@0.2.15:
   version "0.2.15"

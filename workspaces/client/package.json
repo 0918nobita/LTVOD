@@ -22,7 +22,7 @@
     "redux-mock-store": "1.5.3",
     "redux-saga": "1.0.3",
     "rxjs": "6.5.2",
-    "typeless": "0.0.18"
+    "typeless": "0.1.15"
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
